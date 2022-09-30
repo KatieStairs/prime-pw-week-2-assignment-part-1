@@ -5,7 +5,7 @@ const firstName = "Katie ";
 let lastName = "Stairs";   //I am engaged to be married and plan to take his last name in the future.
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-const fullName = firstName + lastName;
+const fullName = (firstName + lastName);
 // 4 - Console log the value of `fullName`
 console.log(fullName); 
 //create a variable called `luckyNumber` and assign it the value of your lucky number.
@@ -17,7 +17,7 @@ console.log(`My name is ${fullName}, and I think ${luckyNumber} is a winner!`);
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
-let food="savoury and spicy breakfast foods";
+let food="Savory and spicy breakfast foods";
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets=0;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
@@ -58,7 +58,21 @@ if (pets < allowedPets) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
-let mostPets
+let mostPets = (pets && friendsPets);
+
+switch(mostPets) {
+    case (pets > friendsPets):
+        (mostPets == pets);
+    break;
+    case (pets < friendsPets): 
+        (mostPets == friendsPets);
+    break;
+    case (pets === friendsPets): 
+        (mostPets == pets || friendsPets);
+}
+
+console.log(mostPets);
+
 
 
 // 17 - Write a *switch* statement that logs:
