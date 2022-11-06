@@ -1,11 +1,11 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-const firstName = "Katie ";
+let firstName = "Katie ";
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-let lastName = "Stairs";   //I am engaged to be married and plan to take his last name in the future.
+let lastName = "Stairs";
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-const fullName = (firstName + lastName);
+let fullName = (firstName + lastName);
 // 4 - Console log the value of `fullName`
 console.log(fullName); 
 //create a variable called `luckyNumber` and assign it the value of your lucky number.
