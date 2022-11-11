@@ -1,15 +1,15 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-let firstName = "Katie ";
+let firstName = "Katie";
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = "Stairs";
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-let fullName = (firstName + lastName);
+let fullName = (firstName + " " + lastName);
 // 4 - Console log the value of `fullName`
 console.log(fullName); 
 //create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = 17;  //My lucky number changes moment to moment, ha.
+const luckyNumber = 17; 
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
@@ -23,9 +23,9 @@ let pets=0;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets=4;
 // 11 - Add two pets to your `pets` variable
-pets=2;
+pets= (pets + 2);
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-allowedPets=2;
+const allowedPets=2;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 if (adventurous == true) {
@@ -35,7 +35,7 @@ if (adventurous == true) {
 }
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if(adventurous == true + luckyNumber===2); {
+if(adventurous === true && luckyNumber === 2){
     console.log("Roll the dice!");
 }
 // 15 - Write a conditional that console logs "I can have more pets!" 
@@ -62,17 +62,17 @@ let mostPets = (pets && friendsPets);
 
 switch(mostPets) {
     case (pets > friendsPets):
-        (mostPets == pets);
+        (mostPets = pets);
     break;
     case (pets < friendsPets): 
-        (mostPets == friendsPets);
+        (mostPets = friendsPets);
     break;
     case (pets === friendsPets): 
-        (mostPets == pets || friendsPets);
+        (mostPets = pets || friendsPets);
 }
 
 console.log(mostPets);
-
+// I am still unsure as to whether or not I understand this one properly.
 
 
 // 17 - Write a *switch* statement that logs:
